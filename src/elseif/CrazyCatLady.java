@@ -14,9 +14,25 @@ String cat=JOptionPane.showInputDialog("how many cat do you have");
 		// 2. Convert their answer into an int
 int cats=Integer.parseInt(cat);
 		// 3. If they have more than 3 cats, tell them they're a crazy cat lady
-if (cats)+
-		// 4. If they have 3 or less, call the method below to show them a cat video
 
+if (cats>3){
+	JOptionPane.showMessageDialog(null, "your a crazy cat lady");
+}
+		// 4. If they have 3 or less, call the method below to show them a cat video
+if(cats<=3){
+	playVideo("https://www.youtube.com/watch?v=fcjR93Jin4Y");
+	
+	
+	
+	
+}
+if(cats==0){
+	playVideo("https://beashayleesayers.files.wordpress.com/2012/05/frog-sitting1.jpg");
+	
+	
+	
+	
+}
 		// 5. If they say 0, show them a video of A Frog Sitting on a Bench Like a Human
 		
 	}
