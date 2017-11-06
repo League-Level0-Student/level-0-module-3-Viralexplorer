@@ -15,6 +15,7 @@ rob.setX(100);
 		// 2. Make the robot draw a star shape. Hint: 144.
 rob.setSpeed(10);
 rob.penDown();
+rob.setPenWidth(10);
 rob.setRandomPenColor();
 for (int i = 0; i < 5; i++) {
 	rob.turn(144);
